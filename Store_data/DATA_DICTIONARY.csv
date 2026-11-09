@@ -1,0 +1,172 @@
+﻿SHEET_NAME,SHEET_MEANING,COLUMN_NAME,COLUMN_MEANING
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",CUSTOMER_ID,Mã khách hàng/CIF nội bộ
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",CIF_NO,Số CIF
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",CUSTOMER_NAME,Tên khách hàng
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",GENDER,Giới tính
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",DATE_OF_BIRTH,Ngày sinh
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",ID_TYPE,Loại giấy tờ định danh
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",ID_MASKED,Số giấy tờ đã masking
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",CUSTOMER_SEGMENT,Phân khúc khách hàng
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",OCCUPATION_CODE,Mã nghề nghiệp
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",PROVINCE,Tỉnh/thành phố
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",BRANCH_CODE,Mã chi nhánh quản lý
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",CUSTOMER_SINCE,Ngày bắt đầu quan hệ khách hàng
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",CUSTOMER_STATUS,Trạng thái khách hàng
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",KYC_LEVEL,Mức độ hoàn thiện KYC
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",RESIDENT_FLAG,Cờ cư trú
+CUSTOMER_MASTER,"Thông tin CIF/KYC cơ bản, không chứa insight hành vi",AML_RISK_LEVEL,Mức rủi ro AML
+BRANCH_MASTER,Danh mục chi nhánh/khu vực,BRANCH_CODE,Mã chi nhánh quản lý
+BRANCH_MASTER,Danh mục chi nhánh/khu vực,BRANCH_NAME,Tên chi nhánh
+BRANCH_MASTER,Danh mục chi nhánh/khu vực,REGION,Vùng/miền
+BRANCH_MASTER,Danh mục chi nhánh/khu vực,PROVINCE,Tỉnh/thành phố
+SEGMENT_MASTER,Danh mục phân khúc khách hàng,SEGMENT_CODE,Mã phân khúc
+SEGMENT_MASTER,Danh mục phân khúc khách hàng,SEGMENT_NAME,Tên phân khúc
+SEGMENT_MASTER,Danh mục phân khúc khách hàng,SEGMENT_DESCRIPTION,Mô tả phân khúc
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",ACCOUNT_ID,Mã tài khoản nội bộ
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",CUSTOMER_ID,Mã khách hàng/CIF nội bộ
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",ACCOUNT_NO_MASKED,Số tài khoản đã masking
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",ACCOUNT_NAME,Tên tài khoản
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",PRODUCT_CODE,Mã sản phẩm
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",ACCOUNT_TYPE,Loại tài khoản
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",CURRENCY,Loại tiền
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",OPEN_DATE,Ngày mở
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",ACCOUNT_STATUS,Trạng thái tài khoản
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",BRANCH_CODE,Mã chi nhánh quản lý
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",CURRENT_BALANCE,Số dư hiện tại
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",AVAILABLE_BALANCE,Số dư khả dụng
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",BLOCKED_AMOUNT,Số tiền phong tỏa
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",AVG_BALANCE_90D,Số dư bình quân 90 ngày
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",PRIMARY_ACCOUNT_FLAG,Cờ tài khoản chính
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",SALARY_ACCOUNT_FLAG,Cờ tài khoản nhận lương
+ACCOUNT_MASTER,"Thông tin tài khoản CASA/tiết kiệm, payroll là flag trên CASA",DORMANT_FLAG,Cờ tài khoản ngủ đông
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,CARD_ID,Mã thẻ
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,CUSTOMER_ID,Mã khách hàng/CIF nội bộ
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,LINKED_ACCOUNT_ID,Tài khoản liên kết với thẻ
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,CARD_NO_MASKED,Số thẻ đã masking
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,CARD_TYPE,Loại thẻ
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,CARD_PRODUCT_CODE,Mã sản phẩm thẻ
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,ISSUE_DATE,Ngày phát hành
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,CARD_STATUS,Trạng thái thẻ
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,CREDIT_LIMIT,Hạn mức tín dụng
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,OUTSTANDING_BALANCE,Dư nợ hiện tại
+CARD_MASTER,Thông tin thẻ debit/credit và liên kết tài khoản,PAYMENT_DUE_DATE,Ngày đến hạn thanh toán
+LOAN_MASTER,Thông tin khoản vay và loan account,LOAN_ID,Mã khoản vay
+LOAN_MASTER,Thông tin khoản vay và loan account,LOAN_ACCOUNT_ID,Mã tài khoản khoản vay
+LOAN_MASTER,Thông tin khoản vay và loan account,CUSTOMER_ID,Mã khách hàng/CIF nội bộ
+LOAN_MASTER,Thông tin khoản vay và loan account,LOAN_TYPE,Loại khoản vay
+LOAN_MASTER,Thông tin khoản vay và loan account,PRODUCT_CODE,Mã sản phẩm
+LOAN_MASTER,Thông tin khoản vay và loan account,DISBURSEMENT_DATE,Ngày giải ngân
+LOAN_MASTER,Thông tin khoản vay và loan account,ORIGINAL_AMOUNT,Số tiền giải ngân ban đầu
+LOAN_MASTER,Thông tin khoản vay và loan account,OUTSTANDING_AMOUNT,Dư nợ còn lại
+LOAN_MASTER,Thông tin khoản vay và loan account,TENOR_MONTHS,Kỳ hạn vay theo tháng
+LOAN_MASTER,Thông tin khoản vay và loan account,INTEREST_RATE,Lãi suất
+LOAN_MASTER,Thông tin khoản vay và loan account,MONTHLY_INSTALLMENT,Số tiền trả hàng tháng
+LOAN_MASTER,Thông tin khoản vay và loan account,NEXT_DUE_DATE,Ngày đến hạn tiếp theo
+LOAN_MASTER,Thông tin khoản vay và loan account,DPD,Số ngày quá hạn
+LOAN_MASTER,Thông tin khoản vay và loan account,LOAN_STATUS,Trạng thái khoản vay
+LOAN_MASTER,Thông tin khoản vay và loan account,COLLATERAL_FLAG,Cờ có tài sản bảo đảm
+CUSTOMER_PRODUCT_HOLDING,Quan hệ khách hàng đang nắm giữ sản phẩm nào,HOLDING_ID,Mã quan hệ nắm giữ sản phẩm
+CUSTOMER_PRODUCT_HOLDING,Quan hệ khách hàng đang nắm giữ sản phẩm nào,CUSTOMER_ID,Mã khách hàng/CIF nội bộ
+CUSTOMER_PRODUCT_HOLDING,Quan hệ khách hàng đang nắm giữ sản phẩm nào,PRODUCT_CODE,Mã sản phẩm
+CUSTOMER_PRODUCT_HOLDING,Quan hệ khách hàng đang nắm giữ sản phẩm nào,PRODUCT_TYPE,Loại sản phẩm
+CUSTOMER_PRODUCT_HOLDING,Quan hệ khách hàng đang nắm giữ sản phẩm nào,SOURCE_OBJECT_ID,ID bản ghi nguồn của sản phẩm
+CUSTOMER_PRODUCT_HOLDING,Quan hệ khách hàng đang nắm giữ sản phẩm nào,OPEN_DATE,Ngày mở
+CUSTOMER_PRODUCT_HOLDING,Quan hệ khách hàng đang nắm giữ sản phẩm nào,STATUS,Trạng thái
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",TRANSACTION_ID,Mã giao dịch
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",CUSTOMER_ID,Mã khách hàng/CIF nội bộ
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",ACCOUNT_ID,Mã tài khoản nội bộ
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",TRANSACTION_DATE,Ngày giao dịch
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",TRANSACTION_TYPE,Loại giao dịch nghiệp vụ
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",DR_CR_IND,Chiều tiền: DEBIT/CREDIT
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",AMOUNT,Số tiền giao dịch
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",CURRENCY,Loại tiền
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",CHANNEL,Kênh giao dịch
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",SOURCE_SYSTEM,Hệ thống nguồn
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",TRANSACTION_CODE,Mã nghiệp vụ giao dịch
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",TRANSACTION_DESCRIPTION,Nội dung giao dịch raw
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",MERCHANT_NAME,"Tên merchant, có thể null"
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",MERCHANT_NAME_NORMALIZED,Tên merchant đã chuẩn hóa
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",MERCHANT_CATEGORY,Nhóm merchant/chi tiêu
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",MERCHANT_CONFIDENCE_SCORE,Độ tin cậy normalize merchant
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",COUNTERPARTY_BANK,Ngân hàng/đối tác đối ứng
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",COUNTERPARTY_MASKED,Thông tin đối tác đã masking
+TRANSACTION_DATA,"Giao dịch thực tế đa loại, merchant nullable, có raw description",TRANSACTION_STATUS,Trạng thái giao dịch
+DIGITAL_ACTIVITY,Hoạt động digital theo tháng,CUSTOMER_ID,Mã khách hàng/CIF nội bộ
+DIGITAL_ACTIVITY,Hoạt động digital theo tháng,PERIOD_MONTH,Tháng dữ liệu
+DIGITAL_ACTIVITY,Hoạt động digital theo tháng,MOBILE_APP_ACTIVE_FLAG,Cờ hoạt động mobile app
+DIGITAL_ACTIVITY,Hoạt động digital theo tháng,APP_LOGIN_COUNT,Số lần login app
+DIGITAL_ACTIVITY,Hoạt động digital theo tháng,QR_PAYMENT_COUNT,Số lần thanh toán QR
+DIGITAL_ACTIVITY,Hoạt động digital theo tháng,BILL_PAYMENT_COUNT,Số lần thanh toán hóa đơn
+DIGITAL_ACTIVITY,Hoạt động digital theo tháng,ONLINE_TRANSFER_COUNT,Số lần chuyển khoản online
+DIGITAL_ACTIVITY,Hoạt động digital theo tháng,ONLINE_SAVING_OPEN_COUNT,Số lần mở tiết kiệm online
+DIGITAL_ACTIVITY,Hoạt động digital theo tháng,LAST_LOGIN_DATE,Ngày login gần nhất
+MERCHANT_REFERENCE,Danh mục merchant phục vụ normalization,MERCHANT_ID,Mã merchant
+MERCHANT_REFERENCE,Danh mục merchant phục vụ normalization,MERCHANT_NAME,"Tên merchant, có thể null"
+MERCHANT_REFERENCE,Danh mục merchant phục vụ normalization,MERCHANT_NAME_NORMALIZED,Tên merchant đã chuẩn hóa
+MERCHANT_REFERENCE,Danh mục merchant phục vụ normalization,MERCHANT_CATEGORY,Nhóm merchant/chi tiêu
+MERCHANT_REFERENCE,Danh mục merchant phục vụ normalization,DEFAULT_SOURCE_SYSTEM,Source system thường gặp
+MERCHANT_REFERENCE,Danh mục merchant phục vụ normalization,NORMALIZATION_CONFIDENCE,Độ tin cậy chuẩn hóa
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,CUSTOMER_ID,Mã khách hàng/CIF nội bộ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,PERIOD_END_DATE,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,TXN_COUNT_180D,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,DEBIT_AMOUNT_180D,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,CREDIT_AMOUNT_180D,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,QR_PAYMENT_RATIO_180D,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,ECOMMERCE_SPEND_180D,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,UTILITY_SPEND_180D,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,FAMILY_SPEND_180D,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,TRAVEL_SPEND_180D,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,FNB_SPEND_180D,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,SALARY_INCOME_180D,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,AVG_BALANCE_90D,Số dư bình quân 90 ngày
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,APP_LOGIN_COUNT_MTD,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,BILL_PAYMENT_COUNT_MTD,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,ONLINE_TRANSFER_COUNT_MTD,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,ACTIVE_LOAN_COUNT,Trường dữ liệu nghiệp vụ
+CUSTOMER_FEATURE,Feature/aggregate số liệu từ transaction/account/digital,ACTIVE_CREDIT_CARD_COUNT,Trường dữ liệu nghiệp vụ
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_ID,Mã signal
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,CUSTOMER_ID,Mã khách hàng/CIF nội bộ
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_CODE,Mã signal hành vi
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_NAME,Tên signal
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_CATEGORY,Nhóm signal
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_SCORE,Điểm signal
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_LEVEL,Mức signal
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_VALUE_NUM,Giá trị số của signal
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_VALUE_TEXT,Mô tả giá trị signal
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_REASON,Lý do sinh signal
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_SOURCE,Nguồn sinh signal
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,SIGNAL_MODEL,Version rule/model
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,PRIORITY_SCORE,Điểm ưu tiên
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,IS_ACTIVE,Cờ hiệu lực
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,GENERATED_DATE,Ngày sinh dữ liệu
+CUSTOMER_SIGNAL,Business signal sinh ra từ feature/rule,EXPIRED_DATE,Ngày hết hiệu lực
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,NBO_ID,Mã Next Best Offer
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,CUSTOMER_ID,Mã khách hàng/CIF nội bộ
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,SIGNAL_ID,Mã signal
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,SIGNAL_CODE,Mã signal hành vi
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,OFFER_TYPE,Loại offer
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,RECOMMENDED_PRODUCT_CODE,Mã sản phẩm đề xuất
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,RECOMMENDED_PRODUCT_NAME,Tên sản phẩm đề xuất
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,RECOMMENDED_CAMPAIGN_CODE,Mã campaign đề xuất
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,RECOMMENDED_CAMPAIGN_NAME,Tên campaign đề xuất
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,NBO_SCORE,Điểm ưu tiên NBO
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,NBO_REASON,Lý do đề xuất
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,ACTION_CHANNEL,Kênh hành động gợi ý
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,GENERATED_DATE,Ngày sinh dữ liệu
+NEXT_BEST_OFFER,Kết quả recommendation tách khỏi signal,VALID_UNTIL,Ngày hết hạn offer
+PRODUCT_MASTER,Danh mục sản phẩm,PRODUCT_CODE,Mã sản phẩm
+PRODUCT_MASTER,Danh mục sản phẩm,PRODUCT_NAME,Tên sản phẩm
+PRODUCT_MASTER,Danh mục sản phẩm,PRODUCT_TYPE,Loại sản phẩm
+PRODUCT_MASTER,Danh mục sản phẩm,TARGET_SEGMENT,Phân khúc mục tiêu
+PRODUCT_MASTER,Danh mục sản phẩm,PRODUCT_DESCRIPTION,Mô tả sản phẩm
+CAMPAIGN_MASTER,Danh mục campaign,CAMPAIGN_CODE,Mã campaign
+CAMPAIGN_MASTER,Danh mục campaign,CAMPAIGN_NAME,Tên campaign
+CAMPAIGN_MASTER,Danh mục campaign,TARGET_CATEGORY,Nhóm mục tiêu campaign
+CAMPAIGN_MASTER,Danh mục campaign,CAMPAIGN_DESCRIPTION,Mô tả campaign
+PRODUCT_MATCHING_RULE,Rule map signal → sản phẩm,SIGNAL_CODE,Mã signal hành vi
+PRODUCT_MATCHING_RULE,Rule map signal → sản phẩm,RECOMMENDED_PRODUCT_CODE,Mã sản phẩm đề xuất
+PRODUCT_MATCHING_RULE,Rule map signal → sản phẩm,RULE_DESCRIPTION,Mô tả rule
+CAMPAIGN_MATCHING_RULE,Rule map signal → campaign,SIGNAL_CODE,Mã signal hành vi
+CAMPAIGN_MATCHING_RULE,Rule map signal → campaign,RECOMMENDED_CAMPAIGN_CODE,Mã campaign đề xuất
+CAMPAIGN_MATCHING_RULE,Rule map signal → campaign,RULE_DESCRIPTION,Mô tả rule
+SAMPLE_PROMPTS,Prompt mẫu cho demo AI Agent,SAMPLE_PROMPT,Prompt mẫu cho AI Agent

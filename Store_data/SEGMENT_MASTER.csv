@@ -1,0 +1,5 @@
+﻿SEGMENT_CODE,SEGMENT_NAME,SEGMENT_DESCRIPTION
+MASS,Mass Retail,Khách hàng bán lẻ phổ thông
+PAYROLL,Payroll Customer,Khách hàng nhận lương qua ngân hàng
+AFFLUENT,Affluent,Khách hàng thu nhập/số dư cao
+SME_INDIVIDUAL,SME Individual / Household Business,Cá nhân/hộ kinh doanh nhỏ

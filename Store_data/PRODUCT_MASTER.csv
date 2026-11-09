@@ -1,0 +1,12 @@
+﻿PRODUCT_CODE,PRODUCT_NAME,PRODUCT_TYPE,TARGET_SEGMENT,PRODUCT_DESCRIPTION
+CASA_STD,Tài khoản thanh toán tiêu chuẩn,ACCOUNT,MASS/PAYROLL/AFFLUENT/SME_INDIVIDUAL,Tài khoản thanh toán VND phục vụ giao dịch hằng ngày
+PAYROLL_CASA,Tài khoản nhận lương,ACCOUNT,PAYROLL,CASA có flag nhận lương định kỳ
+TD_ONLINE,Tiết kiệm online,DEPOSIT,MASS/PAYROLL/AFFLUENT,Gửi tiết kiệm trực tuyến qua kênh số
+DEBIT_STD,Thẻ ghi nợ nội địa/quốc tế,CARD,MASS/PAYROLL,Thẻ debit liên kết CASA
+CC_CASHBACK,Thẻ tín dụng Cashback,CARD,PAYROLL/AFFLUENT,Thẻ tín dụng hoàn tiền cho chi tiêu phổ biến
+CC_INSTALLMENT,Thẻ tín dụng trả góp,CARD,PAYROLL/AFFLUENT,Thẻ tín dụng hỗ trợ trả góp
+PERSONAL_LOAN,Vay tiêu dùng cá nhân,LOAN,MASS/PAYROLL,Khoản vay tiêu dùng cá nhân
+HOME_LOAN,Vay mua nhà,LOAN,PAYROLL/AFFLUENT,Khoản vay mua/sửa nhà
+AUTO_LOAN,Vay mua ô tô,LOAN,PAYROLL/AFFLUENT,Khoản vay mua ô tô
+SME_BUSINESS_LOAN,Vay hộ kinh doanh,LOAN,SME_INDIVIDUAL,Khoản vay cho cá nhân/hộ kinh doanh
+QR_MERCHANT_PACKAGE,Gói QR Merchant,MERCHANT_SERVICE,SME_INDIVIDUAL,Gói nhận thanh toán QR cho hộ kinh doanh

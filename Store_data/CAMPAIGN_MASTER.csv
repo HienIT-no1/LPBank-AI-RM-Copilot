@@ -1,0 +1,8 @@
+﻿CAMPAIGN_CODE,CAMPAIGN_NAME,TARGET_CATEGORY,CAMPAIGN_DESCRIPTION
+CASHBACK_ECOM,Hoàn tiền thương mại điện tử,ECOMMERCE,Ưu đãi Shopee/Tiki/Lazada
+BILL_CASHBACK,Hoàn tiền thanh toán hóa đơn,UTILITY,Ưu đãi thanh toán điện/nước/viễn thông
+SUPERMARKET_REWARD,Ưu đãi siêu thị,SUPERMARKET,Ưu đãi Winmart/Co.opmart/GO!
+DINING_WEEKEND,Hoàn tiền ăn uống cuối tuần,FNB,Ưu đãi F&B
+TRAVEL_MILES,Ưu đãi du lịch,TRAVEL,Ưu đãi hàng không/du lịch
+QR_MERCHANT_PROMO,Ưu đãi QR Merchant,SME,Ưu đãi cho hộ kinh doanh nhận QR
+ONLINE_SAVING_BONUS,Cộng lãi suất tiết kiệm online,DEPOSIT,Ưu đãi gửi tiết kiệm online

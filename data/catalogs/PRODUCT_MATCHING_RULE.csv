@@ -1,0 +1,10 @@
+﻿SIGNAL_CODE,RECOMMENDED_PRODUCT_CODE,RULE_DESCRIPTION
+DIGITAL_ACTIVE,DEBIT_STD,"Khách hàng hoạt động digital, phù hợp kích hoạt/đẩy mạnh thẻ debit và ngân hàng số"
+HIGH_QR_USAGE,QR_MERCHANT_PACKAGE,"Dùng QR nhiều, đặc biệt SME/hộ kinh doanh phù hợp QR merchant package"
+ECOMMERCE_ACTIVE,CC_CASHBACK,"Chi tiêu TMĐT cao, phù hợp thẻ hoàn tiền"
+FAMILY_SPENDING,HOME_LOAN,"Chi tiêu gia đình cao, có thể khai thác nhu cầu nhà ở/gia đình"
+TRAVEL_INTEREST,CC_CASHBACK,"Chi tiêu du lịch/lifestyle cao, phù hợp thẻ tín dụng ưu đãi"
+SAVINGS_POTENTIAL,TD_ONLINE,"Số dư cao, phù hợp tiết kiệm online"
+LOAN_UPSELL_POTENTIAL,PERSONAL_LOAN,Có năng lực tài chính nhưng chưa có khoản vay
+SME_OWNER_BEHAVIOR,SME_BUSINESS_LOAN,"Nhóm cá nhân/hộ kinh doanh, phù hợp vay kinh doanh"
+CARD_ACQUISITION_POTENTIAL,CC_CASHBACK,Chi tiêu cao nhưng chưa có thẻ tín dụng active

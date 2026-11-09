@@ -1,0 +1,6 @@
+﻿SAMPLE_PROMPT
+Phân tích khách hàng CIF2026000001 dựa trên CUSTOMER_SIGNAL và đề xuất Next Best Offer.
+Cho biết vì sao khách hàng này được gợi ý sản phẩm vay/hay thẻ tín dụng.
+Tóm tắt hành vi chi tiêu 180 ngày gần nhất của khách hàng.
+RM nên tư vấn campaign nào cho khách hàng có HIGH_QR_USAGE và DIGITAL_ACTIVE?
+Tìm các khách hàng có SAVINGS_POTENTIAL và tạo kịch bản tư vấn tiết kiệm online.
