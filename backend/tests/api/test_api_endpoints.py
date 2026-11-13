@@ -22,6 +22,18 @@ def test_list_customers():
     assert "customer_id" in data[0]
 
 
+def test_portfolio_overview_endpoint():
+    res = client.get("/api/v1/analysis/portfolio/overview")
+    assert res.status_code == 200
+    data = res.json()
+    assert "total_customers" in data
+    assert "total_spend" in data
+    assert "time_trends" in data
+    assert "ml_clusters" in data
+    assert "cluster_summary" in data
+    assert len(data["cluster_summary"]) > 0
+
+
 def test_spending_analysis_endpoint():
     # Fetch first customer
     cust_res = client.get("/api/v1/customers?limit=1")

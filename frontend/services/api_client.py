@@ -10,6 +10,15 @@ class APIClient:
     def __init__(self, base_url: str = API_BASE_URL):
         self.base_url = base_url.rstrip("/")
 
+    def get_portfolio_overview(self) -> Optional[Dict[str, Any]]:
+        try:
+            res = requests.get(f"{self.base_url}/analysis/portfolio/overview", timeout=15)
+            res.raise_for_status()
+            return res.json()
+        except Exception as e:
+            print(f"Error fetching portfolio overview: {e}")
+            return None
+
     def get_customers(self, limit: int = 50, segment: Optional[str] = None) -> List[Dict[str, Any]]:
         params = {"limit": limit}
         if segment:

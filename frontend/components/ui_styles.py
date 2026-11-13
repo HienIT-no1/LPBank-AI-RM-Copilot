@@ -14,6 +14,11 @@ def apply_custom_styles():
             font-family: 'Inter', sans-serif;
         }
 
+        /* Hide Streamlit default auto-generated multi-page sidebar navigation */
+        [data-testid="stSidebarNav"] {
+            display: none !important;
+        }
+
         /* Top header bar */
         .lpb-header {
             background: linear-gradient(135deg, #A80018 0%, #E60028 100%);
@@ -49,14 +54,14 @@ def apply_custom_styles():
             transform: translateY(-2px);
         }
         .metric-label {
-            font-size: 0.85rem;
+            font-size: 0.82rem;
             color: #64748B;
-            font-weight: 500;
+            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
         .metric-value {
-            font-size: 1.5rem;
+            font-size: 1.55rem;
             font-weight: 700;
             color: #1E293B;
             margin-top: 4px;
@@ -66,6 +71,16 @@ def apply_custom_styles():
             color: #10B981;
             margin-top: 4px;
             font-weight: 500;
+        }
+
+        /* Customer Spotlight Console Card */
+        .customer-spotlight-card {
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            border-radius: 12px;
+            padding: 22px 26px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+            margin-top: 14px;
         }
 
         /* NBO Card */
@@ -101,6 +116,18 @@ def apply_custom_styles():
             font-size: 0.9rem;
             border-radius: 0 6px 6px 0;
         }
+
+        /* Sidebar Nav Links */
+        .stPageLink a {
+            border-radius: 8px !important;
+            padding: 10px 14px !important;
+            font-weight: 500 !important;
+            color: #1E293B !important;
+            transition: all 0.2s ease !important;
+        }
+        .stPageLink a:hover {
+            background-color: #FFF1F2 !important;
+            color: #E11D48 !important;
+        }
         </style>
     """, unsafe_allow_html=True)
-

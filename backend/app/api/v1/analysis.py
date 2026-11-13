@@ -6,11 +6,18 @@ from sqlalchemy.orm import Session
 from backend.app.infrastructure.database.session import get_db
 from backend.app.modules.spending_analysis.service import SpendingAnalysisService
 from backend.app.modules.spending_analysis.schemas import SpendingAnalysisSummary
+from backend.app.modules.spending_analysis.eda import PortfolioEDAAnalytics
 from backend.app.modules.customer_insight.service import CustomerInsightService
 from backend.app.modules.customer_insight.schemas import CustomerInsightSummary
 from backend.app.shared.exceptions import CustomerNotFoundException
 
 router = APIRouter(prefix="/analysis", tags=["Spending Analysis & Insights"])
+
+
+@router.get("/portfolio/overview")
+def get_portfolio_overview(db: Session = Depends(get_db)):
+    """Executive portfolio metrics, time-series aggregations, and ML K-Means clustering."""
+    return PortfolioEDAAnalytics.get_portfolio_overview(db)
 
 
 @router.get("/spending/{customer_id}", response_model=SpendingAnalysisSummary)
